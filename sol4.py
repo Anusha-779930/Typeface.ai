@@ -1,8 +1,10 @@
+# initializing the matrix
 M = [[1,0,0,1,1],[1,0,0,0,1],[1,0,0,1,1],[1,1,1,1,1]]
 A = [255,255]
 B = [255,0]
 C = [0,255]
 D = [0,0]
+# initializing the for loop
 for i in range(len(M)):
     for j in range(len(M[0])):
         if M[i][j] == 0:
@@ -35,4 +37,5 @@ if B[1] != D[1]:
 if C[0] != rb[0]:
     C[0] = max(C[0],D[0])
     D[0] = max(C[0],D[0])
+# printing outpit    
 print(A,B,C,D)
