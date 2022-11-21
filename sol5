@@ -1,0 +1,49 @@
+First Website Crawling is the automated fetching of web pages by a software process, 
+the purpose of which is to index the content of websites so they can be searched.
+The crawler analyzes the content of a page looking for links to the next pages to fetch and index.
+
+As i am going to crawl a site then Site crawls are an attempt to crawl an entire site at one time, 
+starting with the home page. It will grab links from that page,
+to continue crawling the site to other content of the site. 
+This is often called “Spidering”.
+
+To Crawl the website site I will use the following approaches:
+
+1) If website stores all their information on the HTML front end, 
+   I will directly use code to download the HTML contents and extract out useful information.
+ 
+   for this I used the following 5 steps:
+
+   a) Inspect the website HTML that you want to crawl
+   b)Access URL of the website using code and download all the HTML contents on the page
+   c)Format the downloaded content into a readable format
+   d)Extract out useful information and save it into a structured format
+   e)For information displayed on multiple pages of the website, you may need to repeat steps 2–4 to have the complete information.
+2) If website stores data in API and the website queries the API each time when user visit the website,
+   i will simulate the request and directly query data from the API
+    
+   following steps that i will follow:
+   
+   a) Inspect the XHR network section of the URL that you want to crawl
+   b) Find out the request-response that gives you the data that you want  
+   c) Depending on the type of request(post or get) and also the request header & payload, simulate the request in your code and retrieve the data from API. Usually, the data got from API is in a pretty neat format.
+   d) Extract out useful information that you need
+   e) For API with a limit on query size, you will need to use ‘for loop’ to repeatedly retrieve all the data
+
+
+Now Coming to how to save the images and text from the website.
+
+1) First To copy text from a web page, I will find the beginning of the text that I want to copy.
+   I will Press and hold the left mouse button.
+   Then, I will drag the mouse from the top-left to the bottom-right part of the section of text I want to copy. 
+
+2) Now the text I have copied to paste it, I will place the cursor in the appropriate location and press the keyboard shortcut key combination Ctrl+V,
+   or right-click where to paste the text and click Paste.
+
+3) Next to save an image, right-click any image on a website to view the properties menu for that image. 
+   To copy that image into another document, click the Copy image option from the menu.
+   To save the image file to the computer, so it can be used or uploaded elsewhere choose the Save image as option.
+
+4) Now I clicked on the Save image option, a Save As or Save Picture window would open, 
+   allowing me to choose where to save the image and to change the name. 
+   Then i will click the Save button to save the picture to the computer.
