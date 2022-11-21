@@ -1,2 +1,0 @@
-# Typeface.ai
-coding solutions
